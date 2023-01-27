@@ -20,11 +20,11 @@ class SQL:
     def init(cls):
         if not cls.conn:
             cls.conn = psycopg2.connect(
-                host=os.environ.get('HOST_SQL','core.ccv2kqkaburr.us-east-1.rds.amazonaws.com'),
-                port=os.environ.get('PORT_SQL',5432),
-                database=os.environ.get('DATABASE_SQL','postgres'),
-                user=os.environ.get('USER_SQL','goyo'),
-                password=os.environ.get('PASSWORD_SQL','G0y0193193'),
+                host=os.environ.get('HOST_SQL'),
+                port=os.environ.get('PORT_SQL'),
+                database=os.environ.get('DATABASE_SQL'),
+                user=os.environ.get('USER_SQL'),
+                password=os.environ.get('PASSWORD_SQL'),
             )
             cls.conn.autocommit = False
             return SQL()

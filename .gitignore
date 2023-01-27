@@ -131,3 +131,5 @@ dmypy.json
 **/__pycache__
 **/**/__pycache__
 **/**/**/__pycache__
+
+/project_aws
