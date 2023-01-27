@@ -1,0 +1,32 @@
+{
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string",
+			"maxLength": 20,
+			"minLength": 1
+		},
+		"lastname": {
+			"type": "string",
+			"pattern": "^[a-zA-zñÑ]*$",
+			"maxLength": 20,
+			"minLength": 1
+		},
+		"identification": {
+			"type": "string",
+			"pattern": "^[0-9a-zA-z]*$",
+			"maxLength": 10,
+			"minLength": 10
+		},
+		"age": {
+			"type": "integer",
+			"minimum": 18
+		}
+	},
+	"required": [
+		"name",
+		"lastname",
+		"identification",
+		"age"
+	]
+}

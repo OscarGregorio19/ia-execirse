@@ -1,0 +1,978 @@
+{
+	"info": {
+		"_postman_id": "d6a278f4-3fcb-4eae-90af-4714f61be353",
+		"name": "IA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2993273"
+	},
+	"item": [
+		{
+			"name": "GET catalogos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:4000/catalog/magic_affinity2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"catalog",
+						"magic_affinity2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "catalogo status",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:4000/catalog/status",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"catalog",
+								"status"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"request_init\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"update_request\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"accepted_student\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"rejected_student\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"delete_student\"\n        }\n    ]\n}"
+				},
+				{
+					"name": "catalogo grimonios",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:4000/catalog/grimonio",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"catalog",
+								"grimonio"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"Sinceridad\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Esperanza\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Amor\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"Buena Fortuna\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"Desesperación\"\n        }\n    ]\n}"
+				},
+				{
+					"name": "catalogo magic affinity",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:4000/catalog/magic_affinity",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"catalog",
+								"magic_affinity"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"Magia de Acero\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Magia de Agua\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Magia de Aire\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"Magia de Alas\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"Magia de Algodón\"\n        },\n        {\n            \"id\": 6,\n            \"name\": \"Magia de Almagre\"\n        },\n        {\n            \"id\": 7,\n            \"name\": \"Anti-Magia\"\n        },\n        {\n            \"id\": 8,\n            \"name\": \"Magia de Arena\"\n        },\n        {\n            \"id\": 9,\n            \"name\": \"Magia de Arenisca\"\n        },\n        {\n            \"id\": 10,\n            \"name\": \"Magia de Barro\"\n        },\n        {\n            \"id\": 11,\n            \"name\": \"Magia de Bestia\"\n        },\n        {\n            \"id\": 12,\n            \"name\": \"Magia de Bestia Demoníaca\"\n        },\n        {\n            \"id\": 13,\n            \"name\": \"Magia de Bronce\"\n        },\n        {\n            \"id\": 14,\n            \"name\": \"Magia de Brújula\"\n        },\n        {\n            \"id\": 15,\n            \"name\": \"Magia de Burbujas\"\n        },\n        {\n            \"id\": 16,\n            \"name\": \"Magia de Cadenas\"\n        },\n        {\n            \"id\": 17,\n            \"name\": \"Magia de Cabello\"\n        },\n        {\n            \"id\": 18,\n            \"name\": \"Magia de Canto\"\n        },\n        {\n            \"id\": 19,\n            \"name\": \"Magia de Cenizas\"\n        },\n        {\n            \"id\": 20,\n            \"name\": \"Magia de Cerezos\"\n        },\n        {\n            \"id\": 21,\n            \"name\": \"Magia de Cobre\"\n        },\n        {\n            \"id\": 22,\n            \"name\": \"Magia de Comida\"\n        },\n        {\n            \"id\": 23,\n            \"name\": \"Magia Compuesta\"\n        },\n        {\n            \"id\": 24,\n            \"name\": \"Magia de Comunicación\"\n        },\n        {\n            \"id\": 25,\n            \"name\": \"Magia de Corindón\"\n        },\n        {\n            \"id\": 26,\n            \"name\": \"Magia de Corte\"\n        },\n        {\n            \"id\": 27,\n            \"name\": \"Magia de Creación\"\n        },\n        {\n            \"id\": 28,\n            \"name\": \"Magia de Cristal\"\n        },\n        {\n            \"id\": 29,\n            \"name\": \"Magia de Cuerpo\"\n        },\n        {\n            \"id\": 30,\n            \"name\": \"Magia Curativa\"\n        },\n        {\n            \"id\": 31,\n            \"name\": \"Magia de Dados\"\n        },\n        {\n            \"id\": 32,\n            \"name\": \"Magia de Danza\"\n        },\n        {\n            \"id\": 33,\n            \"name\": \"Magia Debilitante\"\n        },\n        {\n            \"id\": 34,\n            \"name\": \"Magia de Espacio\"\n        },\n        {\n            \"id\": 35,\n            \"name\": \"Magia de Espadas\"\n        },\n        {\n            \"id\": 36,\n            \"name\": \"Magia de Espectros\"\n        },\n        {\n            \"id\": 37,\n            \"name\": \"Magia de Espejo\"\n        },\n        {\n            \"id\": 38,\n            \"name\": \"Magia de Espinas\"\n        },\n        {\n            \"id\": 39,\n            \"name\": \"Magia Espiritual\"\n        },\n        {\n            \"id\": 40,\n            \"name\": \"Magia de Fuego\"\n        },\n        {\n            \"id\": 41,\n            \"name\": \"Magia de Gel\"\n        },\n        {\n            \"id\": 42,\n            \"name\": \"Magia de Gravedad\"\n        },\n        {\n            \"id\": 43,\n            \"name\": \"Magia de Hielo\"\n        },\n        {\n            \"id\": 44,\n            \"name\": \"Magia de Hilos\"\n        },\n        {\n            \"id\": 45,\n            \"name\": \"Magia de Hongos\"\n        },\n        {\n            \"id\": 46,\n            \"name\": \"Magia de Huesos\"\n        },\n        {\n            \"id\": 47,\n            \"name\": \"Magia de Humo\"\n        },\n        {\n            \"id\": 48,\n            \"name\": \"Magia de Ilusión\"\n        },\n        {\n            \"id\": 49,\n            \"name\": \"Magia de Imitación\"\n        },\n        {\n            \"id\": 50,\n            \"name\": \"Magia de Juego\"\n        },\n        {\n            \"id\": 51,\n            \"name\": \"Magia Kotodama\"\n        },\n        {\n            \"id\": 52,\n            \"name\": \"Magia del Árbol del Mundo\"\n        },\n        {\n            \"id\": 53,\n            \"name\": \"Magia de Luz\"\n        },\n        {\n            \"id\": 54,\n            \"name\": \"Magia de Maleficio\"\n        },\n        {\n            \"id\": 55,\n            \"name\": \"Magia de Plantas Venenosas\"\n        },\n        {\n            \"id\": 56,\n            \"name\": \"Magia de Maldición\"\n        },\n        {\n            \"id\": 57,\n            \"name\": \"Método de Maná\"\n        },\n        {\n            \"id\": 58,\n            \"name\": \"Magia de Memoria\"\n        },\n        {\n            \"id\": 59,\n            \"name\": \"Magia de Mercurio\"\n        },\n        {\n            \"id\": 60,\n            \"name\": \"Magia de Mosquito\"\n        },\n        {\n            \"id\": 61,\n            \"name\": \"Magia de Mucosidad\"\n        },\n        {\n            \"id\": 62,\n            \"name\": \"Magia de Niebla\"\n        },\n        {\n            \"id\": 63,\n            \"name\": \"Magia de Nieve\"\n        },\n        {\n            \"id\": 64,\n            \"name\": \"Magia de Ojos\"\n        },\n        {\n            \"id\": 65,\n            \"name\": \"Magia de Oscuridad\"\n        },\n        {\n            \"id\": 66,\n            \"name\": \"Magia de Piedra\"\n        },\n        {\n            \"id\": 67,\n            \"name\": \"Magia de Pintura\"\n        },\n        {\n            \"id\": 68,\n            \"name\": \"Magia de Plantas\"\n        },\n        {\n            \"id\": 69,\n            \"name\": \"Magia de Plumas\"\n        },\n        {\n            \"id\": 70,\n            \"name\": \"Magia prohibida\"\n        },\n        {\n            \"id\": 71,\n            \"name\": \"Magia de Rayo\"\n        },\n        {\n            \"id\": 72,\n            \"name\": \"Magia de Recombinación\"\n        },\n        {\n            \"id\": 73,\n            \"name\": \"Magia de Reencarnación\"\n        },\n        {\n            \"id\": 74,\n            \"name\": \"Magia Reforzante\"\n        },\n        {\n            \"id\": 75,\n            \"name\": \"Magia de Restricción\"\n        },\n        {\n            \"id\": 76,\n            \"name\": \"Magia de Roca\"\n        },\n        {\n            \"id\": 77,\n            \"name\": \"Magia de Sangre\"\n        },\n        {\n            \"id\": 78,\n            \"name\": \"Magia de Sellado\"\n        },\n        {\n            \"id\": 79,\n            \"name\": \"Magia de Shakudo\"\n        },\n        {\n            \"id\": 80,\n            \"name\": \"Magia de Sombra\"\n        },\n        {\n            \"id\": 81,\n            \"name\": \"Magia de Sueños\"\n        },\n        {\n            \"id\": 82,\n            \"name\": \"Magia de Tiempo\"\n        },\n        {\n            \"id\": 83,\n            \"name\": \"Magia de Tierra\"\n        },\n        {\n            \"id\": 84,\n            \"name\": \"Trampa Mágica\"\n        },\n        {\n            \"id\": 85,\n            \"name\": \"Magia de Transformación\"\n        },\n        {\n            \"id\": 86,\n            \"name\": \"Magia de Transparencia\"\n        },\n        {\n            \"id\": 87,\n            \"name\": \"Magia de Veneno\"\n        },\n        {\n            \"id\": 88,\n            \"name\": \"Magia de Vidrio\"\n        },\n        {\n            \"id\": 89,\n            \"name\": \"Magia de Viento\"\n        },\n        {\n            \"id\": 90,\n            \"name\": \"Magia de Vídes\"\n        },\n        {\n            \"id\": 91,\n            \"name\": \"Magia de Vórtice\"\n        },\n        {\n            \"id\": 92,\n            \"name\": \"Magia de Árboles\"\n        }\n    ]\n}"
+				},
+				{
+					"name": "error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:4000/catalog/no_existo",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"catalog",
+								"no_existo"
+							]
+						}
+					},
+					"status": "Conflict",
+					"code": 409,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 404,\n    \"message\": \"Catalogo magic_affinity2 no existe\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Enviar solicitud de ingreso.",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"vane\",\n    \"lastname\": \"cano\",\n    \"identification\": \"ABCDE12346\",\n    \"age\": 18,\n    \"magic_affinity\": 72\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4000/student/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"student",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Enviar solicitud de ingreso OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"oscar\",\n    \"lastname\": \"gregorio\",\n    \"identification\": \"ABCDE12345\",\n    \"age\": 20,\n    \"magic_affinity\": 9\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/student/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"student",
+								"register"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 5,\n    \"message\": \"success\"\n}"
+				},
+				{
+					"name": "Ya existe identificacion",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"oscar\",\n    \"lastname\": \"gregorio\",\n    \"identification\": \"ABCDE12345\",\n    \"age\": 20,\n    \"magic_affinity\": 9\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/student/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"student",
+								"register"
+							]
+						}
+					},
+					"code": 409,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": \"0001\",\n    \"message\": \"identification already exists\"\n}"
+				},
+				{
+					"name": "magic affinity no existe",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"oscar\",\n    \"lastname\": \"gregorio\",\n    \"identification\": \"ABCDEXXXXX\",\n    \"age\": 20,\n    \"magic_affinity\": 999999\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/student/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"student",
+								"register"
+							]
+						}
+					},
+					"code": 409,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": \"0002\",\n    \"message\": \"magic affinity does not exist\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Actualizar solicitud de ingreso.",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 5,\n\t\"name\": \"oscar\",\n    \"lastname\": \"gregorio\",\n    \"identification\": \"ABCDE12345\",\n    \"age\": 19,\n    \"magic_affinity\": 9999 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4000/student/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"student",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Actualizar solicitud de ingreso OK",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 5,\n\t\"name\": \"oscar\",\n    \"lastname\": \"gregorio\",\n    \"identification\": \"ABCDE12345\",\n    \"age\": 19,\n    \"magic_affinity\": 45 --> id de catalogo magic affinity\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/student/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"student",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 5,\n    \"message\": \"update\"\n}"
+				},
+				{
+					"name": "Identificacion ya existe",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 5,\n\t\"name\": \"oscar\",\n    \"lastname\": \"gregorio\",\n    \"identification\": \"1234567891\",\n    \"age\": 19,\n    \"magic_affinity\": 45 --> id de catalogo magic affinity\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/student/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"student",
+								"register"
+							]
+						}
+					},
+					"status": "Conflict",
+					"code": 409,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": \"0001\",\n    \"message\": \"identification already exists\"\n}"
+				},
+				{
+					"name": "Magic affinity no existe",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 5,\n\t\"name\": \"oscar\",\n    \"lastname\": \"gregorio\",\n    \"identification\": \"1234567891\",\n    \"age\": 19,\n    \"magic_affinity\": 9999 --> id de catalogo magic affinity\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/student/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"student",
+								"register"
+							]
+						}
+					},
+					"status": "Conflict",
+					"code": 409,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": \"0002\",\n    \"message\": \"magic affinity does not exist\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Actualizar estatus de solicitud.",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 89,\n    \"accept\": \"no\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4000/student/accept",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"student",
+						"accept"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Actualizar estatus de solicitud OK",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 6,\n    \"accept\": \"yes\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/student/accept",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"student",
+								"accept"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"grimonio\": \"Desesperación\",\n    \"message\": \"accepted_student\"\n}"
+				},
+				{
+					"name": "Rechazar solicitud",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 6,\n    \"accept\": \"no\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/student/accept",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"student",
+								"accept"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"grimonio\": \"\",\n    \"message\": \"rejected_student\"\n}"
+				},
+				{
+					"name": "Id no existe",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 89,\n    \"accept\": \"no\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/student/accept",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"student",
+								"accept"
+							]
+						}
+					},
+					"status": "Conflict",
+					"code": 409,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": \"0003\",\n    \"message\": \"Id does no exist or not valid\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Consultar todas las solicitudes.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:4000/requests",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"requests"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consultar todas las solicitudes OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:4000/requests",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"requests"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Consultar asignaciones de Grimorios.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:4000/requests/4",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"requests",
+						"4"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consultar asignaciones de Grimorios OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:4000/requests/2 --> id de catalogo grimonios",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"requests",
+								"2 --> id de catalogo grimonios"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name_grimonio\": \"Esperanza\",\n    \"number_of_students\": 1\n}"
+				},
+				{
+					"name": "Sin registros aun",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:4000/requests/1 --> id de catalogo grimonios",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"requests",
+								"1 --> id de catalogo grimonios"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name_grimonio\": \"Sinceridad\",\n    \"number_of_students\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "Eliminar solicitud de ingreso.",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 30\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4000/requests",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"requests"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Eliminar solicitud de ingreso OK",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 3\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/requests",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"requests"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"delete_student\"\n}"
+				},
+				{
+					"name": "Id no existe",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 30000\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:4000/requests",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "4000",
+							"path": [
+								"requests"
+							]
+						}
+					},
+					"code": 409,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": \"0003\",\n    \"message\": \"Id does no exist or not valid\"\n}"
+				}
+			]
+		}
+	]
+}
