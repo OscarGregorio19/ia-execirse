@@ -60,6 +60,13 @@ Realizado con las siguientes tecnologias:
         <li><img src="https://github.com/OscarGregorio19/ia-execirse/blob/master/images/img2.png"></li>
     </ol>
   </li>
-  <li>Elena</li>
+  <li>
+    Ejecución de api rest
+    <ol>
+        <li>Ubicado en terminal path /project</li>
+        <li>Ejecutar comando: python3 app.py</li>
+        <li><img src="https://github.com/OscarGregorio19/ia-execirse/blob/master/images/img3.png"></li>
+    </ol>
+  </li>
 </ol>
 
