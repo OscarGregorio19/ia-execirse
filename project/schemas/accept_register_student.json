@@ -1,0 +1,17 @@
+{
+	"type": "object",
+	"properties": {
+		"id": {
+			"type": "integer",
+			"minimum": 1
+		},
+		"accept": {
+			"type": "string",
+			"enum": ["yes","no"]
+		}
+	},
+	"required": [
+		"id",
+		"accept"
+	]
+}
