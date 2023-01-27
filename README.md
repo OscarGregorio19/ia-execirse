@@ -89,6 +89,7 @@ Realizado con las siguientes tecnologias:
                 <li>Consulta de solicitudes por grimonio</li>
                 <li>Solicitud de ingreso</li>
                 <li>Baja de estudiante</li>
+                <li><img src="https://github.com/OscarGregorio19/ia-execirse/blob/master/images/img5.png"></li>
             </ol>
         </li>
     </ol>
