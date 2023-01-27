@@ -44,7 +44,7 @@ Realizado con las siguientes tecnologias:
         <li>Abrir terminal y ubicarse en la carpeta del proyecto, teclear los siguientes comandos</li>
         <li>cd init</li>
         <li>pip3 install -r requirements.txt</li>
-        <li><img src="../images/img1.png"></li>
+        <li><img src="https://github.com/OscarGregorio19/ia-execirse/blob/master/images/img1.png"></li>
     </ol>
   </li>
   <li>Ignacio</li>
