@@ -23,10 +23,24 @@
 Este es un API Rest que simula la inscripcion de alumnos a un grimonio de forma aleatoria.
 Realizado con las siguientes tecnologias:
 <ol>
-  <li>Python 3.10</li>
+  <li>lenguaje: Python 3.10</li>
   <li>Framework: Flask</li>
-  <li>Posgrest</li>
-  ...
-  <li>Elemento N</li>
+  <li>Base de datos: Postgres</li>
+</ol>
+
+<h3>Manos a la obra</h3>
+
+<ol type=”A”>
+  <li>
+    Requisitos previos:
+    <p><ol>
+  <li>lenguaje: Python 3.10</li>
+  <li>Framework: Flask</li>
+  <li>Base de datos: Postgres</li>
+</ol></p>
+  </li>
+  <li>Carmen</li>
+  <li>Ignacio</li>
+  <li>Elena</li>
 </ol>
 
