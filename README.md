@@ -1,4 +1,4 @@
-# Serverless Offline
+# Grimonio
 
 <p>
   <a href="https://www.npmjs.com/package/serverless-offline">
@@ -66,6 +66,25 @@ Realizado con las siguientes tecnologias:
         <li>Ubicado en terminal path /project</li>
         <li>Ejecutar comando: python3 app.py</li>
         <li><img src="https://github.com/OscarGregorio19/ia-execirse/blob/master/images/img3.png"></li>
+    </ol>
+  </li>
+  <li>
+    Pruebas API Rest
+    <ol>
+        <li>Colección API Rest en /init/IA.postman_collection.json</li>
+        <li>En este ejemplo, el archivo se cargo en postman</li>
+        <li><img src="https://github.com/OscarGregorio19/ia-execirse/blob/master/images/img3.png"></li>
+        <li>
+            El listado de servicios es el siguiente:
+            <ol>
+                <li>Get Catalogos: Servicio que regresa los catalogs cargados en base de datos</li>
+                <ol>
+                    <li>Status: listado de estaus que puede tener un estudiante</li>
+                    <li>Grimonios. listado de grimoniso al cual puede ir asignado un alumno</li>
+                    <li>Afinidad magica: listado de afinidad magina que tiene un estudiante</li>
+                </ol>
+            </ol>
+        </li>
     </ol>
   </li>
 </ol>
