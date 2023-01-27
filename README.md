@@ -44,7 +44,12 @@ Realizado con las siguientes tecnologias:
         <li>Abrir terminal y ubicarse en la carpeta del proyecto, teclear los siguientes comandos</li>
         <li>cd init</li>
         <li>pip3 install -r requirements.txt</li>
-        <li><img src="https://github.com/OscarGregorio19/ia-execirse/blob/master/images/img1.png"></li>
+        <li>Ejecutar los query para creacion de tablas en base de datos</li>
+        <ol>
+            <li>Ejecutar los comandos del archivo /init/data_base.sql</li>
+            <li>Ejecutar los comandos del archivo /init/catalog_magic_affinity.sql</li>
+            <li><img src="https://github.com/OscarGregorio19/ia-execirse/blob/master/images/img1.png"></li>
+        </ol>
     </ol>
   </li>
   <li>Ignacio</li>
