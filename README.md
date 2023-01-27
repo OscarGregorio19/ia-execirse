@@ -52,7 +52,14 @@ Realizado con las siguientes tecnologias:
         </ol>
     </ol>
   </li>
-  <li>Ignacio</li>
+  <li>
+    Configuración conexión a basse de datos
+    <ol>
+        <li>La forma mas segura es cargar las siguientes variablles en tu entorno (variables de entorno)</li>
+        <li>La otra forma es agregar los valores directamente al archivo /project/config/sql.py</li>
+        <li><img src="https://github.com/OscarGregorio19/ia-execirse/blob/master/images/img2.png"></li>
+    </ol>
+  </li>
   <li>Elena</li>
 </ol>
 
